@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Screen">
+      <UniqueIdentifier>{31a431a3-4c08-4101-be00-81e84cdc2b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Screen">
+      <UniqueIdentifier>{fcd7b1ed-bd1d-4861-98ac-81626ab0c131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Input">
+      <UniqueIdentifier>{3f3a9af2-e54e-4f87-bc63-29c82da7c695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Input">
+      <UniqueIdentifier>{23bfc2ae-2706-4fff-87ec-b4e2d4892043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Player">
+      <UniqueIdentifier>{c089434f-0507-4f4e-98ef-494648e5dabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Player">
+      <UniqueIdentifier>{2be4ea3c-4ab9-449b-b551-4d1185f28414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Update">
+      <UniqueIdentifier>{0e9ca6f0-aacc-4010-8ffd-04cef285479d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Update">
+      <UniqueIdentifier>{9ad9200b-98bf-449a-a736-87dfa9cb366d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Loader">
+      <UniqueIdentifier>{0b228f32-3b25-4036-8d83-faafbc614327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Loader">
+      <UniqueIdentifier>{8aecf20d-3b24-4095-8cfd-5879a7ae597c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Файлы исходного кода\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Файлы исходного кода\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Файлы исходного кода\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Файлы исходного кода\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Файлы исходного кода\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Файлы исходного кода\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>Файлы исходного кода\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenUpdater.cpp">
+      <Filter>Файлы исходного кода\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUpdater.cpp">
+      <Filter>Файлы исходного кода\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="EndSceneupdater.cpp">
+      <Filter>Файлы исходного кода\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Файлы исходного кода\Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreenState.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Заголовочные файлы\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayer.h">
+      <Filter>Заголовочные файлы\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Заголовочные файлы\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Заголовочные файлы\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenUpdater.h">
+      <Filter>Заголовочные файлы\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUpdater.h">
+      <Filter>Заголовочные файлы\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="EndSceneupdater.h">
+      <Filter>Заголовочные файлы\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="IScreenManager.h">
+      <Filter>Заголовочные файлы\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerManager.h">
+      <Filter>Заголовочные файлы\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputManager.h">
+      <Filter>Заголовочные файлы\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Заголовочные файлы\Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
