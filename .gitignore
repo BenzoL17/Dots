@@ -1,7 +1,7 @@
-x64
-Debug
-Game.VC.db
-Game/x64
+.git/x64
+.git/Debug
+.git/Game.VC.db
+.git/Game/x64
 # Prerequisites
 *.d
 
