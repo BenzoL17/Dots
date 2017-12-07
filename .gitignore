@@ -1,9 +1,10 @@
-/x64/*
+x64/*
 /Debug/*
 Game.VC.db
-/Game/x64/*
 # Prerequisites
 *.d
+# Dont need psd files
+*.psd
 
 # Compiled Object files
 *.slo
